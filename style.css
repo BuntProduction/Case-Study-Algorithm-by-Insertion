@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    color : #F7931C;
+    background-color: hsla(246, 52%, 14%, 1);
+}
+button:hover{
+    cursor: pointer;
+}
+
+h1{
+    margin-top: 15%;
+    font-size: 6em;
+    text-align: center;
+}
+
+p{
+    font-size: 2rem;
+    color: white;
+}
+input{
+    border: 1px solid white;
+    border-radius: 4px;
+}
+#addButton{
+    margin-left: 5vh;
+    width: 5vh;
+    height: 2vh;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+#numbers {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#secondSection{
+    margin-top: 5vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#thirdSection {
+    display: none;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+#retry{
+    margin: auto;
+    width: 6vh;
+    height: 3vh;
+    border-radius: 4px;
+    border: 1px solid white;
+    color: white;
+}
+#result{
+    display: inline-block;
+    margin: auto;
+    width: 6vh;
+    height: 3vh;
+    border-radius: 4px;
+    border: 1px solid white;
+    color: white;
+}
+#deleteButton{
+    margin-left: 10px;
+    width: 2vh;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: white;
+}
+#divInput{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#input{
+    width: 40px;
+}
